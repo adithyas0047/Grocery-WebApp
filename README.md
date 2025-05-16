@@ -7,7 +7,6 @@ A comprehensive grocery shopping web application built with modern web technolog
 - **User Authentication**: Secure login and registration system
 - **Product Browsing**: View groceries categorized by type
 - **Shopping Cart**: Add and remove items from your cart
-- **Checkout Process**: Complete purchases with shipping details
 - **Responsive Design**: Works across desktop and mobile devices
 - **Search Functionality**: Find products quickly
 
