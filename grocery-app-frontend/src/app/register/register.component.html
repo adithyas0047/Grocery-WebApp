@@ -1,0 +1,45 @@
+<div class="register-container">
+  <h2>Register for My Grocery App</h2>
+  
+  <div *ngIf="errorMessage" class="error-message">
+    <i class="error-icon">!</i> {{ errorMessage }}
+  </div>
+  
+  <form (ngSubmit)="onSubmit()" #registerForm="ngForm">
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input 
+        type="text" 
+        id="username" 
+        name="username" 
+        [(ngModel)]="username" 
+        required 
+        #usernameInput="ngModel"
+        [class.invalid-input]="usernameInput.invalid && (usernameInput.dirty || usernameInput.touched || formSubmitted)">
+      <div *ngIf="usernameInput.invalid && (usernameInput.dirty || usernameInput.touched || formSubmitted)" class="validation-error">
+        Username is required
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <label for="password">Password</label>
+      <input 
+        type="password" 
+        id="password" 
+        name="password" 
+        [(ngModel)]="password" 
+        required 
+        #passwordInput="ngModel"
+        [class.invalid-input]="passwordInput.invalid && (passwordInput.dirty || passwordInput.touched || formSubmitted)">
+      <div *ngIf="passwordInput.invalid && (passwordInput.dirty || passwordInput.touched || formSubmitted)" class="validation-error">
+        Password is required
+      </div>
+    </div>
+    
+    <button type="submit" class="submit-btn">Register</button>
+  </form>
+  
+  <div class="login-link">
+    <p>Already have an account? <a routerLink="/login">Login</a></p>
+  </div>
+</div>
