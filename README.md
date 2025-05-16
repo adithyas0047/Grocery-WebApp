@@ -91,7 +91,7 @@ The application can be configured by modifying the following files:
 
 ### Contributors
 
-- [Shreyas N](https://github.com/Sheryas-N22) - Project Lead
+- [Shreyas N](https://github.com/Shreyas-N22) - Project Lead
 - [Adithya S](https://github.com/adithyas0047) - Contributor
 
 
