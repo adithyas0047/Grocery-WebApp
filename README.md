@@ -94,9 +94,6 @@ The application can be configured by modifying the following files:
 - [Shreyas N](https://github.com/Sheryas-N22) - Project Lead
 - [Adithya S](https://github.com/adithyas0047) - Contributor
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👤 Contact
 
