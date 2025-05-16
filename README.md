@@ -21,6 +21,7 @@ A comprehensive grocery shopping web application built with modern web technolog
 
 - **Backend**:
   - MySQL Database
+  - PHP
   - Springboot
 
 ## 🚀 Getting Started
