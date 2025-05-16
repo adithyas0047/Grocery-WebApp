@@ -81,8 +81,7 @@ Grocery-WebApp/
 1. Register a new account or login with existing credentials
 2. Browse through various grocery categories
 3. Add desired items to your shopping cart
-4. Proceed to checkout and enter shipping details
-5. Complete your purchase
+4. Complete your purchase
 
 ## 🔧 Configuration
 
@@ -104,9 +103,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Adithya S - [LinkedIn](https://www.linkedin.com/in/adithya-s-027342237/)
 
 Project Link: [https://github.com/adithyas0047/Grocery-WebApp](https://github.com/adithyas0047/Grocery-WebApp)
-
-## 🙏 Acknowledgements
-
-- [Bootstrap](https://getbootstrap.com/)
-- [Font Awesome](https://fontawesome.com/)
-- [PHP Documentation](https://www.php.net/docs.php)
