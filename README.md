@@ -20,8 +20,8 @@ A comprehensive grocery shopping web application built with modern web technolog
   - Bootstrap 5
 
 - **Backend**:
-  - PHP
   - MySQL Database
+  - Springboot
 
 ## 🚀 Getting Started
 
